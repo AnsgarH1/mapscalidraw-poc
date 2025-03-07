@@ -47,6 +47,16 @@ function App() {
 
   return (
     <div className="w-screen h-screen">
+      <h1 className="text-2xl bg-red-500 absolute z-60">
+        Excalidraw + Maplibre Proof of Concept - Pre Alpha -{" "}
+        <a
+          className="underline"
+          target="_blank"
+          href="https://github.com/AnsgarH1/mapscalidraw-poc"
+        >
+          GitHub
+        </a>
+      </h1>
       <div className="absolute top-0 left-0 w-full h-full  z-20">
         <MemoizedExcalidrawWrapper onCanvasChange={handleCanvasChange} />
       </div>
